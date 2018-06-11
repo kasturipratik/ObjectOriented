@@ -18,6 +18,15 @@ public class AnimalApp {
 		print(b.sleep());
 		print(b.fly());
 
+		Dog d = new Dog();
+		print(d.eat());
+		print(d.sleep());
+		print (d.barks());
+
+		CarpFish f = new CarpFish();
+		print(f.eat());
+		print(f.sleep());
+		print(f.swim());
 	}
 	private static void print(String s){
 		System.out.println(s);
